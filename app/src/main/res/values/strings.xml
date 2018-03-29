@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AndroidExercise</string>
+
+    <string name="activity_main_btn_text_view">Text View</string>
+    <string name="activity_main_btn_edit_text">Edit Text</string>
+    <string name="activity_main_btn_view_flipper">View Flipper</string>
+    <string name="activity_main_btn_search_view">Search View</string>
+    <string name="activity_main_btn_rxjava2">RxJava2</string>
+    <string name="activity_main_btn_ble">Ble</string>
+    <string name="activity_main_btn_progress_bar">Progress Bar</string>
+    <string name="activity_main_btn_spinner">Spinner</string>
+    <string name="activity_main_btn_mpchart">MPChart</string>
+    <string name="activity_main_btn_recyclerview">RecyclerView</string>
+
+    // titles show on the toolbar
+    <string name="activity_text_view_title">Text View</string>
+    <string name="activity_spinner_title">Spinner</string>
+    <string name="activity_edit_text_title">Edit Text</string>
+    <string name="activity_view_flipper_title">View Flipper</string>
+    <string name="activity_search_view_title">Search View</string>
+    <string name="activity_rxjava2_title">RxJava2</string>
+    <string name="activity_ble_title">Ble</string>
+    <string name="activity_progress_bar_title">Progress Bar</string>
+    <string name="activity_rx_error_handling_title">RxErrorHandling</string>
+    <string name="activity_rx_compose_title">RxCompose</string>
+    <string name="activity_rx_workflow_title">Rx Workflow</string>
+    <string name="activity_mpchart_title">MPChart</string>
+    <string name="activity_rxjava2_btn_error_handling">Error Handling</string>
+    <string name="activity_rxjava2_btn_compose">Compose</string>
+    <string name="activity_rxjava2_btn_workflow">Workflow</string>
+    <string name="activity_recyclerview_title">RecyclerView</string>
+
+    <string name="activity_ble_not_supported">Ble is not supported by this device.</string>
+
+    <string-array name="lambda_region">
+        <item>us-east-2</item>
+        <item>us-east-1</item>
+        <item>us-west-1</item>
+        <item>us-west-2</item>
+        <item>ap-northeast-1</item>
+        <item>ap-northeast-2</item>
+        <item>ap-south-1</item>
+        <item>ap-southeast-1</item>
+        <item>ap-southeast-2</item>
+        <item>ca-central-1</item>
+        <item>cn-north-1</item>
+        <item>eu-central-1</item>
+        <item>eu-west-1</item>
+        <item>eu-west-2</item>
+        <item>eu-west-3</item>
+        <item>sa-east-1</item>
+    </string-array>
+
+    <string name="activity_home_image_description">Welcome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

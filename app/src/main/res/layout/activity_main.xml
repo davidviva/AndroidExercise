@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "@dimen/activity_padding"
+    tools:context="com.example.yanwu.androidexercise.MainActivity">
+
+    <Button
+        android:id="@+id/btn_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_text_view" />
+
+    <Button
+        android:id="@+id/btn_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_edit_text" />
+
+    <Button
+        android:id="@+id/btn_viewflipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_view_flipper" />
+
+    <Button
+        android:id="@+id/btn_searchview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_search_view" />
+
+    <Button
+        android:id="@+id/btn_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_rxjava2" />
+
+    <Button
+        android:id="@+id/btn_ble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_ble" />
+
+    <Button
+        android:id="@+id/btn_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_progress_bar" />
+
+    <Button
+        android:id="@+id/btn_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_spinner" />
+
+    <Button
+        android:id="@+id/btn_mpchart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_mpchart" />
+
+    <Button
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_main_btn_recyclerview" />
+
+</LinearLayout>

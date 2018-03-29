@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "@dimen/activity_padding">
+
+    <Button
+        android:id="@+id/btn_error_handling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_rxjava2_btn_error_handling" />
+
+    <Button
+        android:id="@+id/btn_compose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_rxjava2_btn_compose" />
+
+    <Button
+        android:id="@+id/btn_workflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/activity_rxjava2_btn_workflow" />
+
+</LinearLayout>
