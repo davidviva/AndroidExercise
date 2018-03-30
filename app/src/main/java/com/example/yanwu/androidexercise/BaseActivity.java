@@ -2,6 +2,7 @@ package com.example.yanwu.androidexercise;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -56,5 +57,14 @@ public abstract class BaseActivity extends AppCompatActivity{
             return true;
         }
         return onTouchEvent(event);
+    }
+
+    public void showBackButton() {
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_back);
+        }
     }
 }

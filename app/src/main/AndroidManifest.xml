@@ -16,13 +16,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BasicElementsCatagoryActivity"
+            android:label="@string/activity_basic_elements_title"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RxJavaCategoryActivity"
+            android:label="@string/activity_rxjava_category_title"
+            android:screenOrientation="portrait" />
         <activity android:name=".TextViewActivity"
             android:label="@string/activity_text_view_title"
             android:screenOrientation="portrait" />

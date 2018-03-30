@@ -13,6 +13,8 @@
     <string name="activity_main_btn_recyclerview">RecyclerView</string>
 
     // titles show on the toolbar
+    <string name="activity_basic_elements_title">Basic Elements</string>
+    <string name="activity_rxjava_category_title">RxJava Category</string>
     <string name="activity_text_view_title">Text View</string>
     <string name="activity_spinner_title">Spinner</string>
     <string name="activity_edit_text_title">Edit Text</string>
